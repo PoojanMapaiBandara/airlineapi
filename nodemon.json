@@ -1,0 +1,10 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "706z3pKAH1Vs9n6a",
+        "JWT_KEY": "7yhGG45#rrtCvhh@swqaFrc",
+        "SCREAT_EMAIL": "airlinesystemres@gmail.com",
+        "SCREAT_EMAIL_PASS": "airResAdmin123",
+        "MYMAIL_SERVICE": "Gmail",
+        "DB_NAME": "AirlineDb"
+    }
+}
