@@ -12,8 +12,8 @@ const flightRoutes = require('./api/routes/flight.route');
 const usersRoutes = require('./api/routes/users');
 const ticketRoutes = require('./api/routes/ticket.route');
 
-// atlas database connection
-mongoose.connect("mongodb://localhost:27017/AirlineDb", {
+// atlas database connection mongodb://localhost:27017/AirlineDb
+mongoose.connect("mongodb+srv://admin:admin@airlinecluster.lozwf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
